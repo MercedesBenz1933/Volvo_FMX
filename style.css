@@ -1,0 +1,49 @@
+body.fundo {
+  background-image: url('botafogo.jpeg');
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 50px auto;
+  padding: 20px;
+  max-width: 700px;
+  border-radius: 15px;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 8px 0;
+}
+
+.botoes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.botao {
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+.botao:hover {
+  background-color: gray;
+}
